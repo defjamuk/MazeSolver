@@ -43,6 +43,8 @@ public class MazeSolverMainDialog {
 //                        else
 //                            mySolv = new WallSolver(config);
 
+
+
                         mySolv = new DeadEndFillSolver(config);
 
                         RobotSolvingTask task = new RobotSolvingTask(mySolv);
